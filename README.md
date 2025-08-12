@@ -16,3 +16,11 @@ Intelligent signature planning to reduce blank pages
 
 Automatically scales and rearranges pages into correct print order
 
+How to Run
+
+git clone https://github.com/rizikdhabre/pdf-smart-engine.git
+cd pdf-smart-engine
+python3 -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
